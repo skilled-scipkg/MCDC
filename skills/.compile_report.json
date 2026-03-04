@@ -1,0 +1,369 @@
+{
+  "compile_memory_path": "skills/.evidence/memory.md",
+  "compiled_package_id": "mcdc",
+  "evidence": {
+    "core_skills": [
+      "mcdc-inputs-and-modeling",
+      "mcdc-build-and-install",
+      "mcdc-theory-and-methods",
+      "mcdc-getting-started",
+      "mcdc-simulation-workflows",
+      "mcdc-parallel-hpc"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/mcdc-inputs-and-modeling.md",
+      "skills/.evidence/mcdc-build-and-install.md",
+      "skills/.evidence/mcdc-theory-and-methods.md",
+      "skills/.evidence/mcdc-getting-started.md",
+      "skills/.evidence/mcdc-simulation-workflows.md",
+      "skills/.evidence/mcdc-parallel-hpc.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "mode": "compile",
+  "pass_scope_diffs": {
+    "pass_2": {
+      "added": [
+        "skills/mcdc-advanced-topics/SKILL.md",
+        "skills/mcdc-advanced-topics/references/doc_map.md",
+        "skills/mcdc-advanced-topics/references/source_map.md"
+      ],
+      "changed": [
+        "skills/mcdc-advanced-topics/SKILL.md",
+        "skills/mcdc-advanced-topics/references/doc_map.md",
+        "skills/mcdc-advanced-topics/references/source_map.md",
+        "skills/mcdc-build-and-install/SKILL.md",
+        "skills/mcdc-general/SKILL.md",
+        "skills/mcdc-general/references/doc_map.md",
+        "skills/mcdc-general/references/source_map.md",
+        "skills/mcdc-getting-started/SKILL.md",
+        "skills/mcdc-index/SKILL.md",
+        "skills/mcdc-inputs-and-modeling/SKILL.md",
+        "skills/mcdc-paper/SKILL.md",
+        "skills/mcdc-paper/references/doc_map.md",
+        "skills/mcdc-paper/references/source_map.md",
+        "skills/mcdc-parallel-hpc/SKILL.md",
+        "skills/mcdc-requirements-rtd/SKILL.md",
+        "skills/mcdc-requirements-rtd/references/doc_map.md",
+        "skills/mcdc-requirements-rtd/references/source_map.md",
+        "skills/mcdc-simulation-workflows/SKILL.md",
+        "skills/mcdc-theory-and-methods/SKILL.md"
+      ],
+      "deleted": [
+        "skills/mcdc-general/SKILL.md",
+        "skills/mcdc-general/references/doc_map.md",
+        "skills/mcdc-general/references/source_map.md",
+        "skills/mcdc-paper/SKILL.md",
+        "skills/mcdc-paper/references/doc_map.md",
+        "skills/mcdc-paper/references/source_map.md",
+        "skills/mcdc-requirements-rtd/SKILL.md",
+        "skills/mcdc-requirements-rtd/references/doc_map.md",
+        "skills/mcdc-requirements-rtd/references/source_map.md"
+      ],
+      "modified": [
+        "skills/mcdc-build-and-install/SKILL.md",
+        "skills/mcdc-getting-started/SKILL.md",
+        "skills/mcdc-index/SKILL.md",
+        "skills/mcdc-inputs-and-modeling/SKILL.md",
+        "skills/mcdc-parallel-hpc/SKILL.md",
+        "skills/mcdc-simulation-workflows/SKILL.md",
+        "skills/mcdc-theory-and-methods/SKILL.md"
+      ]
+    },
+    "pass_3": {
+      "added": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md"
+      ],
+      "changed": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md",
+        "skills/mcdc-advanced-topics/references/doc_map.md",
+        "skills/mcdc-advanced-topics/references/source_map.md",
+        "skills/mcdc-api-and-scripting/SKILL.md",
+        "skills/mcdc-api-and-scripting/references/doc_map.md",
+        "skills/mcdc-api-and-scripting/references/source_map.md",
+        "skills/mcdc-build-and-install/references/source_map.md",
+        "skills/mcdc-examples-and-tutorials/SKILL.md",
+        "skills/mcdc-examples-and-tutorials/references/doc_map.md",
+        "skills/mcdc-examples-and-tutorials/references/source_map.md",
+        "skills/mcdc-getting-started/references/doc_map.md",
+        "skills/mcdc-getting-started/references/source_map.md",
+        "skills/mcdc-index/SKILL.md",
+        "skills/mcdc-inputs-and-modeling/references/source_map.md",
+        "skills/mcdc-parallel-hpc/references/doc_map.md",
+        "skills/mcdc-parallel-hpc/references/source_map.md",
+        "skills/mcdc-simulation-workflows/references/doc_map.md",
+        "skills/mcdc-simulation-workflows/references/source_map.md",
+        "skills/mcdc-theory-and-methods/references/doc_map.md",
+        "skills/mcdc-theory-and-methods/references/source_map.md",
+        "skills/mcdc-troubleshooting/SKILL.md",
+        "skills/mcdc-troubleshooting/references/doc_map.md",
+        "skills/mcdc-troubleshooting/references/source_map.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/mcdc-advanced-topics/references/doc_map.md",
+        "skills/mcdc-advanced-topics/references/source_map.md",
+        "skills/mcdc-api-and-scripting/SKILL.md",
+        "skills/mcdc-api-and-scripting/references/doc_map.md",
+        "skills/mcdc-api-and-scripting/references/source_map.md",
+        "skills/mcdc-build-and-install/references/source_map.md",
+        "skills/mcdc-examples-and-tutorials/SKILL.md",
+        "skills/mcdc-examples-and-tutorials/references/doc_map.md",
+        "skills/mcdc-examples-and-tutorials/references/source_map.md",
+        "skills/mcdc-getting-started/references/doc_map.md",
+        "skills/mcdc-getting-started/references/source_map.md",
+        "skills/mcdc-index/SKILL.md",
+        "skills/mcdc-inputs-and-modeling/references/source_map.md",
+        "skills/mcdc-parallel-hpc/references/doc_map.md",
+        "skills/mcdc-parallel-hpc/references/source_map.md",
+        "skills/mcdc-simulation-workflows/references/doc_map.md",
+        "skills/mcdc-simulation-workflows/references/source_map.md",
+        "skills/mcdc-theory-and-methods/references/doc_map.md",
+        "skills/mcdc-theory-and-methods/references/source_map.md",
+        "skills/mcdc-troubleshooting/SKILL.md",
+        "skills/mcdc-troubleshooting/references/doc_map.md",
+        "skills/mcdc-troubleshooting/references/source_map.md"
+      ]
+    }
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "docs"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Dry-run generator succeeds with explicit docs/tutorial/test/source roots and max_skills=30.",
+      "Primary implementation is under mcdc/; tooling implementation lives in tools/data_library_generator/.",
+      "Pass 2 should merge low-signal one-doc topic skills into mcdc-advanced-topics per generator workflow."
+    ],
+    "package_name": "mcdc",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "mcdc",
+      "tools/data_library_generator"
+    ],
+    "test_dirs": [
+      "test"
+    ],
+    "tutorial_dirs": [
+      "examples",
+      "docs/source/examples"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mcdc-mcdc",
+  "run_id": "compile_20260304T180458474679Z",
+  "skill_plan": {
+    "available_skill_ids": [
+      "mcdc-api-and-scripting",
+      "mcdc-build-and-install",
+      "mcdc-examples-and-tutorials",
+      "mcdc-general",
+      "mcdc-getting-started",
+      "mcdc-index",
+      "mcdc-inputs-and-modeling",
+      "mcdc-paper",
+      "mcdc-parallel-hpc",
+      "mcdc-requirements-rtd",
+      "mcdc-simulation-workflows",
+      "mcdc-theory-and-methods",
+      "mcdc-troubleshooting"
+    ],
+    "core_skill_ids": [
+      "mcdc-inputs-and-modeling",
+      "mcdc-build-and-install",
+      "mcdc-theory-and-methods",
+      "mcdc-getting-started",
+      "mcdc-simulation-workflows",
+      "mcdc-parallel-hpc"
+    ],
+    "deferred_gaps": [
+      "Consolidate one-doc low-signal generated topics (e.g., paper/general/requirements) into mcdc-advanced-topics after initial generation.",
+      "Evaluate whether examples/need_update should be excluded or explicitly marked as legacy during enrichment.",
+      "After pass 2 enrichment, run pass 3 audit to verify each core skill has SKILL.md + doc_map.md + source_map.md and docs-first routing remains consistent."
+    ],
+    "goal": "Generate deterministic docs-first MCDC skills, then enrich the highest-impact workflows for pass 2/3.",
+    "mode": "compile",
+    "priority_skills": [
+      {
+        "action": "create",
+        "must_cover": [
+          "route requests across install/modeling/run/HPC/analysis/troubleshooting",
+          "enforce docs-first escalation to source only when docs are insufficient"
+        ],
+        "reason": "Acts as the router so requests are consistently directed to the right topic skill before deep inspection.",
+        "skill_id": "mcdc-index",
+        "source_hints": [
+          "docs/source/index.rst",
+          "README.md",
+          "skills/.compile_profile.json"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "first run path and minimal executable example",
+          "install prerequisites and environment sanity checks"
+        ],
+        "reason": "Highest-frequency onboarding questions should be resolved quickly with canonical setup and first-run flow.",
+        "skill_id": "mcdc-getting-started",
+        "source_hints": [
+          "docs/source/user/first_mcdc.rst",
+          "docs/source/install.rst",
+          "README.md"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "canonical input modeling workflow and common pitfalls",
+          "mapping from docs examples to implementation objects"
+        ],
+        "reason": "Core user work is defining geometry, materials, sources, and tallies correctly.",
+        "skill_id": "mcdc-inputs-and-modeling",
+        "source_hints": [
+          "docs/source/user/index.rst",
+          "docs/source/theory/geometry.rst",
+          "examples/pincell/input.py",
+          "mcdc/object_"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "run/restart style workflows and runtime controls",
+          "output expectations and validation checks"
+        ],
+        "reason": "Run control, time dependence, and output interpretation are central to successful production runs.",
+        "skill_id": "mcdc-simulation-workflows",
+        "source_hints": [
+          "docs/source/examples/",
+          "docs/source/theory/cont_movement.rst",
+          "mcdc/transport/simulation.py",
+          "mcdc/output.py"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "MPI/GPU execution paths and environment requirements",
+          "batch/container workflows and performance-related pitfalls"
+        ],
+        "reason": "MCDC targets scalable CPU/GPU execution, so HPC guidance has high operational impact.",
+        "skill_id": "mcdc-parallel-hpc",
+        "source_hints": [
+          "docs/source/user/gpu.rst",
+          "docs/source/theory/gpu.rst",
+          "docs/source/user/batch_scripts.rst",
+          "containers/",
+          "mcdc/transport/mpi.py"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "error triage questions for install/run/HPC mismatches",
+          "doc-backed fixes and when to escalate to source inspection"
+        ],
+        "reason": "Centralizes recurring failures and directs users to the fastest diagnostic path.",
+        "skill_id": "mcdc-troubleshooting",
+        "source_hints": [
+          "docs/source/user/troubleshooting.rst",
+          "docs/source/user/faq.rst",
+          "test/regression/README.md"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "minimal runnable examples for common problem classes",
+          "mapping from docs examples pages to corresponding scripts"
+        ],
+        "reason": "Provides runnable reference workflows that anchor answers in concrete patterns.",
+        "skill_id": "mcdc-examples-and-tutorials",
+        "source_hints": [
+          "docs/source/examples/index.rst",
+          "examples/",
+          "test/regression/"
+        ]
+      }
+    ],
+    "version": 1,
+    "warnings": []
+  },
+  "skill_plan_path": "skills/.evidence/skill_plan.json",
+  "validation": {
+    "core_skills_checked": [
+      "mcdc-examples-and-tutorials",
+      "mcdc-inputs-and-modeling",
+      "mcdc-getting-started",
+      "mcdc-theory-and-methods",
+      "mcdc-simulation-workflows",
+      "mcdc-troubleshooting"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mcdc-mcdc/skills/mcdc-api-and-scripting/references/source_map.md: broken path references: tallies/*, runtime/*",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mcdc-mcdc/skills/mcdc-examples-and-tutorials/references/source_map.md: broken path references: input.py",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mcdc-mcdc/skills/mcdc-getting-started/references/source_map.md: broken path references: tallies/*, runtime/*",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mcdc-mcdc/skills/mcdc-simulation-workflows/references/source_map.md: broken path references: tallies/*, runtime/*",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mcdc-mcdc/skills/mcdc-examples-and-tutorials/SKILL.md: playbook missing required element containing 'minimal working example'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mcdc-mcdc/skills/mcdc-examples-and-tutorials/SKILL.md: playbook missing required element containing 'pitfalls'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mcdc-mcdc/skills/mcdc-examples-and-tutorials/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mcdc-mcdc/skills/mcdc-inputs-and-modeling/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mcdc-mcdc/skills/mcdc-getting-started/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mcdc-mcdc/skills/mcdc-theory-and-methods/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mcdc-mcdc/skills/mcdc-simulation-workflows/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mcdc-mcdc/skills/mcdc-troubleshooting/SKILL.md: playbook missing required element containing 'minimal working example'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mcdc-mcdc/skills/mcdc-troubleshooting/SKILL.md: playbook missing required element containing 'pitfalls'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mcdc-mcdc/skills/mcdc-troubleshooting/SKILL.md: playbook missing required element containing 'convergence/validation'."
+    ],
+    "index_skills": [
+      "mcdc-index"
+    ],
+    "missing_planned_skills": [],
+    "ok": false,
+    "planned_skill_ids": [
+      "mcdc-index",
+      "mcdc-getting-started",
+      "mcdc-inputs-and-modeling",
+      "mcdc-simulation-workflows",
+      "mcdc-parallel-hpc",
+      "mcdc-troubleshooting",
+      "mcdc-examples-and-tutorials"
+    ],
+    "previous_source_inventory": {},
+    "skills_total": 11,
+    "source_inventory": {},
+    "source_links_total": 95,
+    "topic_skills": 10,
+    "warnings": []
+  }
+}
